@@ -61,7 +61,7 @@ import gtk.glade
 # Local - Expects us to be two levels below the library
 sys.path.insert(0, os.path.join('..', '..'))
 import qp
-import qptest
+import unittest
 
 # System wide signal definitions
 [
@@ -524,7 +524,7 @@ class QCalc(qp.Hsm):
         return self.display_
 
 
-class TestQCalc(qptest.HsmTestCase):
+class TestQCalc(unittest.TestCase):
 
     def setUp(self):
         self.dut = QCalc()
