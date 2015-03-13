@@ -1,0 +1,15 @@
+1.0.1
+
+  * Added assertion on compatible Python version.
+  * Updated qf.py for Python 2.4 support.
+  * Removed unnecessary qp directory level.
+  * Fixed bug in qcalc example.
+
+ -- Henrik Bohre <henrik.bohre@autolabel.se>
+
+1.0.0
+
+  * Initial revision based on QP 3.4.00. A major difference from the original
+    code, is that no event pool is implemented.
+ 
+ -- Henrik Bohre <henrik.bohre@autolabel.se>
