@@ -163,8 +163,6 @@ class HsmUnitTest(unittest.TestCase, HsmTester):
     """
 
     def setUp(self):
-        import logging
-        logging.info('hej')
         HsmTester.setUp(self)
         unittest.TestCase.setUp(self)
 
